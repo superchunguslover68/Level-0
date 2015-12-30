@@ -60,7 +60,7 @@ Tortoise.move(treeWidth / 4);
 	void drawStar() {
 		Tortoise.setSpeed(10);	// * Optional: Draw a red star on top of the tree. Hint: 144 degrees makes a star.
 	for (int i = 0; i < 5; i++) {
-		Tortoise.move(9999);
+		Tortoise.move(32);
 		Tortoise.turn(144);
 	}
 	}
